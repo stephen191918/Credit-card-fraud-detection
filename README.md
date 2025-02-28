@@ -13,6 +13,7 @@ The dataset consists of 550,000 transaction records with the following features:
 - **V1 - V28**: Anonymized numerical attributes representing transaction details.
 - **Amount**: Transaction amount.
 - **Class**: Binary label indicating fraudulent (1) or non-fraudulent (0) transactions.
+
 ![features](https://github.com/user-attachments/assets/e7e60b7a-4c02-4789-931f-e87deddfa153)
 
 
@@ -34,7 +35,9 @@ The following models were implemented to classify fraudulent transactions:
 - Classified transactions based on the k-nearest points using Euclidean distance.
 - Evaluated with k values: 5, 10, 20, and 100.
 - Best k value: **5** with an accuracy of **93.49%**.
+
 ![knn](https://github.com/user-attachments/assets/099a5973-61c9-4d6e-85f9-babfe984b11d)
+
 ![knn accuracy](https://github.com/user-attachments/assets/afeda739-514b-4722-9108-49e71ca480c4)
 
 
@@ -43,8 +46,11 @@ The following models were implemented to classify fraudulent transactions:
 - Applied Grid Search Cross-Validation for hyperparameter tuning.
 - Best-performing model used **entropy criterion**.
 - Achieved an accuracy of **99.83%** on the test set.
+
 ![tree parameter](https://github.com/user-attachments/assets/80ed9a1b-5142-468c-a318-d1050aab61fc)
+
 ![tree](https://github.com/user-attachments/assets/fa211634-b2c9-4fd1-bb95-f6eecb8cea57)
+
 ![tree plot](https://github.com/user-attachments/assets/9fb90017-384c-45d9-bef1-3d923ee7184f)
 
 
