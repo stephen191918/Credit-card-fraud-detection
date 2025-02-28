@@ -19,9 +19,11 @@ The dataset consists of 550,000 transaction records with the following features:
 
 ## Data Preprocessing
 1. **Null Values Removal**: No missing values were found.
+
 ![remove null](https://github.com/user-attachments/assets/497322ca-456a-49d2-ac27-6be68148bf38)
 
 2. **Duplicate Removal**: Identified and removed duplicate records.
+
 ![remove duplicates](https://github.com/user-attachments/assets/bea2efb3-fe68-4a57-a25e-a953ae03efcd)
 
 3. **Class Distribution**: The dataset is balanced with an equal number of fraudulent and non-fraudulent transactions.
@@ -80,18 +82,5 @@ The following models were implemented to classify fraudulent transactions:
 - Implement real-time fraud detection strategies.
 - Further investigate feature engineering techniques to enhance model interpretability.
 
-## How to Run
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/credit-card-fraud-detection.git
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the preprocessing and model training script:
-   ```sh
-   python main.py
-   ```
 ## References
 - "2023 Credit Card Fraud Report." Security.Org, 31 Jan. 2023, www.security.org/digital-safety/credit-card-fraud-report/.
